@@ -24,6 +24,25 @@ router.post('/notes', (req, res) => {
     res.send(record);
 });
 
+router.delete('/notes/:id', (req, res) => {
+    console.log("recived delete request for" + req.params.id);
+    var deleteId = req.params.id;
+    var deleteIndex = -1;
+    for (let i=0; i<notesData.length; i++) {
+        if (notesData[i].id === deleteId) {
+            deleteIndex = i;
+        }
+    }
+    if (deleteIndex != -1) {
+        notesData.splice(deleteIndex, 1);
+    }
+    fs.writeFile(path.join(__dirname, '../../db/db.json'), JSON.stringify(notesData), (err) => {
+        if (err) throw err;
+        console.log('The file has been updated!');
+    });
+    res.sendStatus(200);
+});
+
 function generateNewNote(title, text) {
     var record = {};
     record.id = nanoid();
