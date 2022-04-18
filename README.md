@@ -23,7 +23,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 And here is a screenshot of my pages.
 The first look the this application:
 <img width="1439" alt="Screen Shot 2022-04-17 at 10 22 25 PM" src="https://user-images.githubusercontent.com/97587912/163759133-489b5589-5069-48db-80c2-2ea44e4cff73.png">
-Added some notes
+Added some notes:
 <img width="1439" alt="Screen Shot 2022-04-17 at 10 23 43 PM" src="https://user-images.githubusercontent.com/97587912/163759203-146ab07f-e522-43e1-8864-c0ece6cbd3cf.png">
-Deleted the first note:
+The look of clicking on a certain note:
 <img width="1435" alt="Screen Shot 2022-04-17 at 10 24 04 PM" src="https://user-images.githubusercontent.com/97587912/163759231-124c7732-55f2-484f-bc8d-4d8db8efd15e.png">
+Delete a note:
+<img width="1440" alt="Screen Shot 2022-04-17 at 10 24 13 PM" src="https://user-images.githubusercontent.com/97587912/163759497-68577eb3-021c-4909-8f30-19b8ac66a162.png">
+
